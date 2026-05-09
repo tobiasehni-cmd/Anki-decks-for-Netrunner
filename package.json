@@ -1,0 +1,25 @@
+{
+  "name": "anki-decks-for-netrunner",
+  "version": "0.1.0",
+  "description": "Software that creates Anki flashcards from Netrunnerdb",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "fetch": "node src/index.js fetch",
+    "dev": "node --watch src/index.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": ["anki", "netrunner", "flashcards", "api"],
+  "author": "tobiasehni-cmd",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
